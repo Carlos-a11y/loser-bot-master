@@ -1,0 +1,52 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/data/data/com.termux/files/usr/bin/node',
+1 verbose cli   '/data/data/com.termux/files/usr/bin/npm',
+1 verbose cli   'i',
+1 verbose cli   'audited',
+1 verbose cli   '1000',
+1 verbose cli   'packages',
+1 verbose cli   'in',
+1 verbose cli   '9.147s'
+1 verbose cli ]
+2 info using npm@6.14.10
+3 info using node@v14.15.4
+4 verbose config Skipping project config: /data/data/com.termux/files/home/.npmrc. (matches userconfig)
+5 verbose npm-session 1f39621480a20ef8
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 http fetch GET 404 https://registry.npmjs.org/audited 1011ms
+9 http fetch GET 404 https://registry.npmjs.org/9.147s 1013ms
+10 http fetch GET 404 https://registry.npmjs.org/1000 1040ms
+11 http fetch GET 200 https://registry.npmjs.org/packages 1108ms
+12 http fetch GET 200 https://registry.npmjs.org/in 1204ms
+13 http fetch GET 404 https://registry.npmjs.org/audited 775ms
+14 silly fetchPackageMetaData error for audited@latest 404 Not Found - GET https://registry.npmjs.org/audited - Not found
+15 http fetch GET 404 https://registry.npmjs.org/1000 769ms
+16 silly fetchPackageMetaData error for 1000@latest 404 Not Found - GET https://registry.npmjs.org/1000 - Not found
+17 http fetch GET 404 https://registry.npmjs.org/9.147s 829ms
+18 silly fetchPackageMetaData error for 9.147s@latest 404 Not Found - GET https://registry.npmjs.org/9.147s - Not found
+19 http fetch GET 200 https://registry.npmjs.org/packages/-/packages-0.0.8.tgz 835ms
+20 silly pacote tag manifest for packages@latest fetched in 1971ms
+21 http fetch GET 200 https://registry.npmjs.org/in/-/in-0.18.2.tgz 803ms
+22 silly pacote tag manifest for in@latest fetched in 2020ms
+23 timing stage:rollbackFailedOptional Completed in 2ms
+24 timing stage:runTopLevelLifecycles Completed in 3880ms
+25 verbose stack Error: 404 Not Found - GET https://registry.npmjs.org/audited - Not found
+25 verbose stack     at /data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/npm-registry-fetch/check-response.js:117:15
+25 verbose stack     at processTicksAndRejections (internal/process/task_queues.js:93:5)
+26 verbose statusCode 404
+27 verbose pkgid audited@latest
+28 verbose cwd /data/data/com.termux/files/home
+29 verbose Linux 4.14.141-g6dc03a4
+30 verbose argv "/data/data/com.termux/files/usr/bin/node" "/data/data/com.termux/files/usr/bin/npm" "i" "audited" "1000" "packages" "in" "9.147s"
+31 verbose node v14.15.4
+32 verbose npm  v6.14.10
+33 error code E404
+34 error 404 Not Found - GET https://registry.npmjs.org/audited - Not found
+35 error 404
+36 error 404 'audited@latest' is not in the npm registry.
+37 error 404 You should bug the author to publish it (or use the name yourself!)
+38 error 404 Note that you can also install from a
+39 error 404 tarball, folder, http url, or git url.
+40 verbose exit [ 1, true ]
